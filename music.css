@@ -1,0 +1,98 @@
+ul {
+  background: linear-gradient(180deg, #AE05FD 0%, #CD2F2F 100%);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 100%;
+  width: 10%;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ a {
+   text-decoration: none;
+   color:inherit;
+ }
+ input {
+   border-radius: 60px;
+   border-style: none;
+   width: 80%;
+   height: 70px;
+   font-size: 40px;
+   padding: 10px;
+   margin-left: 10%;
+   margin-top: 5%;
+ }
+ a:hover {
+   text-decoration: none;
+   color: inherit;
+ }
+ .icon {
+   margin-top: 40px;
+   margin-bottom: 40px;
+   font-size: 40px;
+   color: white;
+ }
+.container {
+  margin-left: 15%;
+}
+img {
+  margin: 20px;
+}
+.albumCover{
+  margin: 30px;
+  width: 250px;
+  height: 250px;
+}
+body{
+  background-color: #362D2D;
+}
+div {
+  text-align: center;
+}
+.featured {
+  font-size: 50px;
+  text-align: center;
+  margin: 30px;
+}
+h1 {
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+@media screen and (max-width: 700px) {
+  ul {
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+    margin-bottom: -10%;
+    padding: 10px;
+    height: 15vh;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    display: table-row;
+   }
+   .icon {
+     margin-top: calc(7vh - 40px);
+     margin-left: 20px;
+     margin-right: 20px;
+     color: white;
+   }
+   .container {
+     margin-left: 0%;
+     text-align: center;
+   }
+   input{
+     margin-left: 0px;
+   }
+}
+a {  text-decoration: none;}
